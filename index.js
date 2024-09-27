@@ -1,11 +1,11 @@
 const plus = document.querySelector(".plus");
 minus = document.querySelector(".minus");
 number = document.querySelector(".number");
-
+ 
 let a = 1;
 
 plus.addEventListener("click", function () {
-  a++;
+  a++;    
   number.innerText = a;
   console.log(a);
 });
